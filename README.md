@@ -10,6 +10,8 @@ Postgres through row-level security policies — no custom API layer to maintain
 
 ---
 
+**Live demo:** https://password123-blip.github.io/mandi-price-watch/
+
 ## Stack
 
 | Layer | Choice |
