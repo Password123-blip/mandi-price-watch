@@ -1,0 +1,89 @@
+{
+  "slug": "mandi-price-watch",
+  "title": "Mandi Price Watch",
+  "tagline": "Track what your crop actually sells for",
+  "description": "A shared log of mandi prices, so farmers and small traders can see what a quintal is really fetching this week instead of relying on someone else's number.",
+  "category": "Agri Tools",
+  "accent": "#16a34a",
+  "accent_soft": "#dcfce7",
+  "table": {
+    "name": "prices",
+    "singular": "price entry",
+    "plural": "price entries",
+    "fields": [
+      {
+        "name": "crop",
+        "label": "Crop",
+        "type": "text",
+        "required": true,
+        "placeholder": "Wheat, onion, soybean\u2026"
+      },
+      {
+        "name": "mandi",
+        "label": "Mandi / market",
+        "type": "text",
+        "required": true,
+        "placeholder": "Karnal, Lasalgaon\u2026"
+      },
+      {
+        "name": "price_per_quintal",
+        "label": "Price per quintal (\u20b9)",
+        "type": "number",
+        "required": true
+      },
+      {
+        "name": "quoted_on",
+        "label": "Quoted on",
+        "type": "date",
+        "required": true
+      },
+      {
+        "name": "notes",
+        "label": "Notes",
+        "type": "text",
+        "required": false,
+        "placeholder": "Grade, moisture, buyer type"
+      }
+    ]
+  },
+  "features": [
+    {
+      "icon": "\ud83c\udf3e",
+      "title": "Log a price in seconds",
+      "body": "Crop, mandi, rate and date \u2014 four fields, one tap, and it is in the database for everyone."
+    },
+    {
+      "icon": "\ud83d\udccd",
+      "title": "Compare across mandis",
+      "body": "See the same crop from different markets side by side before you commit to a buyer."
+    },
+    {
+      "icon": "\ud83d\udd13",
+      "title": "Open and free",
+      "body": "No login, no middleman, no paywall. Read access is public by design."
+    }
+  ],
+  "seed": [
+    {
+      "crop": "Wheat",
+      "mandi": "Karnal",
+      "price_per_quintal": 2450,
+      "quoted_on": "2026-11-09",
+      "notes": "Fair average quality"
+    },
+    {
+      "crop": "Onion",
+      "mandi": "Lasalgaon",
+      "price_per_quintal": 1820,
+      "quoted_on": "2026-11-10",
+      "notes": "Red, well graded"
+    },
+    {
+      "crop": "Soybean",
+      "mandi": "Indore",
+      "price_per_quintal": 4310,
+      "quoted_on": "2026-11-10",
+      "notes": ""
+    }
+  ]
+}
